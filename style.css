@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+div {
+  width: 100vw;
+  /* margin: auto; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: rgb(46, 45, 45);
+  border: 2px solid green;
+  border-radius: 10px;
+  outline: none;
+}
+#display {
+  width: 90vw;
+  padding: 5px;
+  font-size: 1.2rem;
+  /* margin: auto; */
+}
+#display > ol {
+  margin: auto;
+  text-align: start;
+}
